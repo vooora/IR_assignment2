@@ -60,10 +60,10 @@ def save_indices(index, doc_tf, df, index_file_path, tf_file_path, df_file_path)
             file.write(f"{token}\t{frequency}\n")
 
 def main():
-    doc_dump_path = 'nfcorpus/raw/doc_dump.txt'
-    index_file_path = 'index_updated.txt'
-    tf_file_path = 'nfcorpus/tf.txt'
-    df_file_path = 'nfcorpus/df.txt'
+    doc_dump_path = 'IR_assignment2/q1/index_updated.txt'
+    index_file_path = 'IR_assignment2/q1/index_updated.txt'
+    tf_file_path = 'IR_assignment2/nfcorpus/tf.txt'
+    df_file_path = 'IR_assignment2/nfcorpus/df.txt'
     
     index, doc_tf = build_indices(doc_dump_path)
     df = calculate_df(index)
