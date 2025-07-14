@@ -3,6 +3,8 @@
 The assignment involved implementing and experimenting with various IR ranking models, feedback algorithms, and query expansion techniques using real-world datasets.
 
 Check the [report](https://github.com/vooora/IR_assignment2/blob/master/IR_ASSIGNMENT_2.pdf) attached for more details. 
+
+
 ---
 
 ## Project Overview
